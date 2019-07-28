@@ -1,0 +1,222 @@
+/*** Portfolio CSS ***/
+
+
+/* Body and background image for header and main section */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #777;
+    background: #666;
+    background-position: center;
+    letter-spacing: 1px;
+    position: relative;
+    background: url(../images/interlaced.png);
+    background-color: red;
+    
+}
+
+#header-main-section-wrapper {
+    background-position: center;
+    padding-bottom: 108px;
+}
+
+
+/* General Classes and STyles */
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.h1 {
+    font-size: 24px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.alignleft {
+    float: left;
+    clear: right;
+    padding: 0 30px 30px 0;
+}
+
+a:hover,
+a:active,
+a:focus {
+    box-sizing: border-box;
+    outline: 2px dotted #000;
+}
+
+
+/* Header */
+#header-wrapper {
+    background: #fff;
+}
+
+header {
+    background: #fff;
+    height: 90px;
+}
+
+#logo {
+    background: #4aaaa5;
+    padding: 0 35px;
+    display: inline-block;
+    height: 90px;
+}
+
+#logo p {
+    color: #fff;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    line-height: 90px;
+}
+
+nav {
+ float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 90px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    line-height: 84px;
+    display: inline-block;
+    width: auto;   
+    padding: 3px 20px;
+    border-right: #efefef 1px solid;
+    height: 30px;
+    line-height: 18px;
+}
+
+nav li:last-of-type a {
+    border-right: none;
+}
+
+nav a:link,
+nav a:visited {
+    color: #999;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:active {
+    color: #999;
+    text-decoration: underline;
+}
+
+nav a.active:link,
+nav a.active:visited,
+nav a.active:hover,
+nav a.active:active {
+    text-decoration: underline;
+}
+
+.header-spacer {
+    padding: 0;
+    margin: 0 0 40px 0;
+    border: 1px solid #666;
+}
+
+
+/* Main Section */
+section {
+    width: 958px;
+    border: 1px solid #ddd;
+    background: #fff;
+    margin: 40px 0 0;
+}
+
+#main {
+ padding: 15px 35px 35px;  
+ overflow:  auto; 
+}
+
+#main h1 {
+    font-size: 24px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+}
+
+#main hr {
+    border: 2px solid #ddd;
+    margin: 0 0 40px;
+}
+
+
+/* Footer */
+footer {
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+}
+
+
+/* Portfolio page */
+.portfolio-img {
+    display: inline-block;
+    width: 275px;
+    height: 205px;
+    overflow: hidden;
+    margin: 0 40px 55px 0;
+    box-sizing: border-box;
+    border: 2px solid #4aaaa5;
+    position: relative;
+}
+
+.portfolio-img p {
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    background: #4aaaa5;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;    
+}
+
+
+/* Contact page */
+body.contacteating_easy input {
+    border: 1px solid #ddd;
+    padding: 10px 0 10px 10px;
+    width: 880px;
+}
+
+body.contact textarea {
+    border: 1px solid #ddd;
+    padding: 10px 0 10px 10px;
+    width: 880px;
+}
+
+body.contact button {
+    background: #4aaaa5;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 30px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: red;
+    }
+  }
